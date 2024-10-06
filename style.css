@@ -538,7 +538,7 @@ nav{
         height: 70%;
         width: 100%;
         /* background-color: rgb(250, 91, 115); */
-        padding: 8vw 20vw;
+        padding: 8vw 15vw;
     }
     #front h1{
         text-align: center;
@@ -554,9 +554,9 @@ nav{
     }
     
     #front #search{
-        height: 15%;
-        width: 80%;
-        padding: 5px 5px;
+        height: 18%;
+        width: 100%;
+        padding: 5px 4px;
         border-radius: 4px;
         margin-bottom: 8px;
     }
@@ -572,18 +572,21 @@ nav{
     }
 
     #quick-btn{
-        height: 10%;
+        height: 15%;
         width: 50%;
         /* background-color: rgb(33, 30, 210); */
     }
     #quick-btn h3{
-        font-size: 1.2vw;
+        font-size: 3vw;
         color: #120b46ce;
     }
     #quick-btn h5{
-        font-size: 0.7vw;
+        font-size: 1.9vw;
         padding: 2px 3px;
         border-radius: 10px;
+    }
+    #quick-btn h5:hover{
+        scale: 1.1;
     }
 
     .heading{
@@ -638,6 +641,9 @@ nav{
         object-fit: cover;
         border-radius: 10px;
     }
+    .article:hover img{
+        scale: 1.1;
+    }
     
     .article h1{
         font-size: 3.5vw;
@@ -649,6 +655,10 @@ nav{
     #big-img #big-left{
         width: 100%;
     }
+    #big-img #big-left h2{
+        font-size: 2.5vw;
+    }
+    
     #big-img #big-right{
         display: none;
     }
