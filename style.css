@@ -261,7 +261,7 @@ nav{
     transition: all ease 0.5s;
 }
 .article:hover img{
-    scale: 1.2;
+    scale: 1.05;
     cursor: pointer;
 }
 
@@ -646,7 +646,7 @@ nav{
         border-radius: 10px;
     }
     .article:hover img{
-        scale: 1.1;
+        scale: 1.05;
     }
     
     .article h1{
